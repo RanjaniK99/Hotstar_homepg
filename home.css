@@ -240,6 +240,31 @@ nav ul ul li a:hover {
     margin-left: -10px;
     font-size: 15px;
   }
+  nav ul ul {
+    position: fixed;
+    width: 80%;
+    height: 100vh;
+    background: #26282b;
+    top: 0px;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul ul li {
+    display: block;
+    margin: 20px 5px 0 5px;
+    line-height: 20px;
+  }
+
+  nav ul ul li a {
+    font-size: 15px;
+  }
+  nav ul ul li a:hover {
+    background: #26282b;
+    color: white;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
   .main {
     margin-left: -15px;
     font-family: "Lucida Handwriting";
@@ -331,6 +356,31 @@ nav ul ul li a:hover {
     margin-left: -5px;
     font-size: 15px;
   }
+  nav ul ul {
+    position: fixed;
+    width: 80%;
+    height: 100vh;
+    background: #26282b;
+    top: 0px;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul ul li {
+    display: block;
+    margin: 20px 5px 0 5px;
+    line-height: 20px;
+  }
+
+  nav ul ul li a {
+    font-size: 15px;
+  }
+  nav ul ul li a:hover {
+    background: #26282b;
+    color: white;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
   .main {
     margin-left: -10px;
     font-family: "Lucida Handwriting";
@@ -361,8 +411,8 @@ nav ul ul li a:hover {
   }
 
   .footer {
-    height: 350px;
-    width: 100%;
+    margin-bottom: 0;
+    height: 300px;
   }
   .about_mail {
     display: none;
@@ -371,18 +421,28 @@ nav ul ul li a:hover {
     padding: 0 13px 10px 5px;
     font-size: 13px;
   }
+
   .copy {
     font-size: 13px;
     display: flex;
   }
-
   .b4 {
-    margin-top: 30px;
     margin-left: 15px;
+    margin-top: 10px;
+    font-size: 15px;
   }
+
   .b5 {
-    margin-left: 140px;
-    margin-top: -90px;
+    margin-left: 100px;
+    margin-top: -110px;
+    font-size: 15px;
+    color: white;
+  }
+  .cont {
+    margin-top: -125px;
+  }
+  .googleimg {
+    margin-top: -15px;
   }
 }
 
@@ -408,9 +468,7 @@ nav ul ul li a:hover {
   .kid {
     display: none;
   }
-  .subs {
-    display: none;
-  }
+
   .log {
     display: none;
   }
@@ -421,12 +479,37 @@ nav ul ul li a:hover {
     color: white;
     text-decoration: none;
     line-height: 55px;
-    margin: 5px;
+    margin: 10px;
     font-size: 13px;
   }
 
   .bar {
     font-size: 20px;
+  }
+  nav ul ul {
+    position: fixed;
+    width: 80%;
+    height: 100vh;
+    background: #26282b;
+    top: 0px;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul ul li {
+    display: block;
+    margin: 20px 5px 0 5px;
+    line-height: 20px;
+  }
+
+  nav ul ul li a {
+    font-size: 15px;
+  }
+  nav ul ul li a:hover {
+    background: #26282b;
+    color: white;
+  }
+  #check:checked ~ ul {
+    left: 0;
   }
   .main {
     font-family: "Lucida Handwriting";
@@ -436,16 +519,11 @@ nav ul ul li a:hover {
     float: right;
   }
   .search {
-    font-size: 18px;
-    color: white;
-    border-bottom: 1px solid white;
-    width: 110px;
-    padding-bottom: 5px;
+    display: none;
   }
-  #seaico {
-    margin-left: 40px;
+  .subs {
+    margin-right: 5px;
   }
-
   .subtit {
     margin-top: 20px;
     margin-left: 1px;
@@ -453,8 +531,10 @@ nav ul ul li a:hover {
   .wrapper {
     margin-left: 1px;
   }
+
   .footer {
-    height: 250px;
+    margin-bottom: 0;
+    height: 300px;
   }
   .about_mail {
     display: none;
@@ -463,18 +543,28 @@ nav ul ul li a:hover {
     padding: 0 13px 10px 5px;
     font-size: 13px;
   }
+
   .copy {
     font-size: 13px;
     display: flex;
   }
-
   .b4 {
-    margin-top: 30px;
     margin-left: 15px;
+    margin-top: 10px;
+    font-size: 15px;
   }
+
   .b5 {
-    margin-left: 140px;
-    margin-top: -90px;
+    margin-left: 100px;
+    margin-top: -110px;
+    font-size: 15px;
+    color: white;
+  }
+  .cont {
+    margin-top: -125px;
+  }
+  .googleimg {
+    margin-top: -15px;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 420px) {
@@ -517,6 +607,31 @@ nav ul ul li a:hover {
     margin-left: 2px;
     font-size: 20px;
   }
+  nav ul ul {
+    position: fixed;
+    width: 80%;
+    height: 100vh;
+    background: #26282b;
+    top: 0px;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul ul li {
+    display: block;
+    margin: 20px 5px 0 5px;
+    line-height: 20px;
+  }
+
+  nav ul ul li a {
+    font-size: 15px;
+  }
+  nav ul ul li a:hover {
+    background: #26282b;
+    color: white;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
   .main {
     font-family: "Lucida Handwriting";
     color: white;
@@ -558,12 +673,19 @@ nav ul ul li a:hover {
   }
 
   .b4 {
-    margin-top: 30px;
     margin-left: 15px;
+    margin-top: 10px;
+    font-size: 15px;
   }
   .b5 {
-    margin-left: 140px;
-    margin-top: -90px;
+    margin-left: 100px;
+    margin-top: -110px;
+  }
+  .cont {
+    margin-top: -125px;
+  }
+  .googleimg {
+    margin-top: -15px;
   }
 }
 
@@ -713,6 +835,31 @@ nav ul ul li a:hover {
   .bar {
     padding-left: 0px;
     font-size: 20px;
+  }
+  nav ul ul {
+    position: fixed;
+    width: 80%;
+    height: 100vh;
+    background: #26282b;
+    top: 0px;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul ul li {
+    display: block;
+    margin: 20px 5px 0 5px;
+    line-height: 20px;
+  }
+
+  nav ul ul li a {
+    font-size: 15px;
+  }
+  nav ul ul li a:hover {
+    background: #26282b;
+    color: white;
+  }
+  #check:checked ~ ul {
+    left: 0;
   }
   .main {
     font-family: "Lucida Handwriting";
